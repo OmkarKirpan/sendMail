@@ -27,3 +27,4 @@ x,2021-08-16,"August 16, 2021, 7:17 PM GMT+5:30",Message failed: 554 5.2.0 STORE
 x,2021-08-16,"August 16, 2021, 7:17 PM GMT+5:30",Message failed: 554 5.2.0 STOREDRV.Submission.Exception:InvalidLicenseException; Failed to process message due to a permanent exception with message Mailbox 'b4caf50c-8840-4b5a-9feb-c437a9e6e350' doesn't have a valid license. InvalidLicenseException: Mailbox 'b4caf50c-8840-4b5a-9feb-c437a9e6e350' doesn't have a valid license. [Hostname=MA1PR01MB4162.INDPRD01.PROD.OUTLOOK.COM]
 ~,2021-08-17,"August 17, 2021, 6:30 PM GMT+5:30",<a9375e52-4284-8e2b-67e8-8bed06efe280@a1technology.com>
 ~,2021-08-18,"August 18, 2021, 7:51 PM GMT+5:30",<74a6bec1-1c57-aec0-dee4-8910c945fdc4@a1technology.com>
+~,2021-08-19,"August 19, 2021, 8:48 PM GMT+5:30",<d34df8ec-ce06-1111-91a4-e0eb1a390250@a1technology.com>

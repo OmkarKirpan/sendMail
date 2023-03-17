@@ -1,7 +1,7 @@
-Status report: working on IBM India Pvt Ltd. client project
+Status report: working on client project
 
 Reporting Time :
-9 am to 5:45 pm
+8 am to 5:45 pm
 
 Break Time :
 (None)
@@ -10,9 +10,9 @@ Total Working hours: 9 hours
 
 Reporting To : Meenu Saluja
 
-Activities Performed:
+Activities Performed: Coding
 
-Project Name : IBM India Pvt Ltd. client project
+Project Name : client project
 
 CRM: -
 

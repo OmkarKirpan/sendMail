@@ -1,8 +1,8 @@
 const nodemailer = require("nodemailer");
-const { DateTime } = require("luxon");
-const now = DateTime.now().toFormat("dd LLL yyyy - cccc");
+// const { DateTime } = require("luxon");
+// const now = DateTime.now().toFormat("dd LLL yyyy - cccc");
 
-async function mailer(status) {
+async function mailer(status, now) {
   let transporter = nodemailer.createTransport({
     host: process.env.M_HOST,
     port: process.env.M_PORT,
@@ -22,7 +22,7 @@ async function mailer(status) {
     from: process.env.EMAIL_FROM,
     to: process.env.EMAIL_TO,
     cc: process.env.EMAIL_CC,
-    subject: `Status Report ${now}`,
+    subject: `Status Report ${now.toFormat("dd LLL yyyy - cccc")}`,
     text: status,
   });
 

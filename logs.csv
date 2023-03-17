@@ -1,31 +1,30 @@
-Status,ISOdate,Date Time,Details
-~,2021-07-07,"July 7, 2021, 7:35 PM GMT+5:30",<ff83f7a6-4c7e-6e7a-a5b6-2d6a97596c10@a1technology.com>
-~,2021-07-08,"July 8, 2021, 7:32 PM GMT+5:30",<960fb01a-69f1-7b57-c6ae-1a28c7c0b03a@a1technology.com>
-~,2021-07-09,"July 9, 2021, 5:23 PM GMT+5:30",<61249174-52b8-b4da-64a1-45b511045ed1@a1technology.com>
-~,2021-07-12,"July 12, 2021, 7:06 PM GMT+5:30",<c4ac2176-37a0-a393-91e2-0a6496d828e8@a1technology.com>
-~,2021-07-13,"July 13, 2021, 5:28 PM GMT+5:30",<2f4e7482-03ec-2f5e-74d3-8d8b7ae01ab6@a1technology.com>
-~,2021-07-14,"July 14, 2021, 6:07 PM GMT+5:30",<6cf97c9b-6b49-63d2-de26-b29085f8226c@a1technology.com>
-~,2021-07-15,"July 15, 2021, 5:55 PM GMT+5:30",<59197992-93b7-65d9-0741-b1b8a34e7980@a1technology.com>
-~,2021-07-16,"July 16, 2021, 5:38 PM GMT+5:30",<d7b24129-dcaa-33cc-bcde-4dc258a788f2@a1technology.com>
-~,2021-07-19,"July 19, 2021, 6:19 PM GMT+5:30",<4a4ec024-3e97-928d-9b66-a14f26b4c5d2@a1technology.com>
-~,2021-07-20,"July 20, 2021, 6:35 PM GMT+5:30",<2064be34-ba99-17db-5f31-9ffca5cec500@a1technology.com>
-~,2021-07-21,"July 21, 2021, 5:31 PM GMT+5:30",<169ef265-0ed4-599d-56f7-0b0ac2bba10c@a1technology.com>
-~,2021-07-22,"July 22, 2021, 5:10 PM GMT+5:30",<78a81ee7-f783-3e2b-e63c-6578df41dc07@a1technology.com>
-~,2021-07-23,"July 23, 2021, 7:40 PM GMT+5:30",<66d2e15c-eaca-4e89-d725-da6d988f0550@a1technology.com>
-~,2021-07-26,"July 26, 2021, 5:14 PM GMT+5:30",<a4a5cfb8-1899-c575-675e-33fe6a95cb9e@a1technology.com>
-~,2021-07-27,"July 27, 2021, 6:12 PM GMT+5:30",<7bde91bd-66f7-b4cc-8d59-7383419bc20a@a1technology.com>
-~,2021-07-28,"July 28, 2021, 7:25 PM GMT+5:30",<5cf482f9-3b2c-0e74-76fc-10733e862b8c@a1technology.com>
-~,2021-07-29,"July 29, 2021, 6:09 PM GMT+5:30",<1e92117e-6226-c3f1-d59e-2a7de2943a21@a1technology.com>
-~,2021-07-30,"July 30, 2021, 5:14 PM GMT+5:30",<6296fcd7-badc-76ce-5918-4f4e1cc78bac@a1technology.com>
-~,2021-08-05,"August 5, 2021, 7:25 PM GMT+5:30",<b04a2b70-7193-e471-f91b-ad1afe543f7e@a1technology.com>
-~,2021-08-06,"August 6, 2021, 6:24 PM GMT+5:30",<1a5d0a50-59b8-4a32-4c33-85c509af4888@a1technology.com>
-x,2021-08-09,"August 9, 2021, 5:34 PM GMT+5:30",read ECONNRESET
-~,2021-08-09,"August 9, 2021, 5:35 PM GMT+5:30",<8946372a-9072-84b7-2db2-35424cb50a21@a1technology.com>
-~,2021-08-10,"August 10, 2021, 6:24 PM GMT+5:30",<d3ece537-2f59-f52b-c3e4-f09afdd572b9@a1technology.com>
-~,2021-08-11,"August 11, 2021, 5:28 PM GMT+5:30",<1b65288c-721e-ada2-4d64-186b6d864cb9@a1technology.com>
-x,2021-08-16,"August 16, 2021, 7:17 PM GMT+5:30",Message failed: 554 5.2.0 STOREDRV.Submission.Exception:InvalidLicenseException; Failed to process message due to a permanent exception with message Mailbox 'b4caf50c-8840-4b5a-9feb-c437a9e6e350' doesn't have a valid license. InvalidLicenseException: Mailbox 'b4caf50c-8840-4b5a-9feb-c437a9e6e350' doesn't have a valid license. [Hostname=MA1PR01MB4162.INDPRD01.PROD.OUTLOOK.COM]
-x,2021-08-16,"August 16, 2021, 7:17 PM GMT+5:30",Message failed: 554 5.2.0 STOREDRV.Submission.Exception:InvalidLicenseException; Failed to process message due to a permanent exception with message Mailbox 'b4caf50c-8840-4b5a-9feb-c437a9e6e350' doesn't have a valid license. InvalidLicenseException: Mailbox 'b4caf50c-8840-4b5a-9feb-c437a9e6e350' doesn't have a valid license. [Hostname=MA1PR01MB4162.INDPRD01.PROD.OUTLOOK.COM]
-~,2021-08-17,"August 17, 2021, 6:30 PM GMT+5:30",<a9375e52-4284-8e2b-67e8-8bed06efe280@a1technology.com>
-~,2021-08-18,"August 18, 2021, 7:51 PM GMT+5:30",<74a6bec1-1c57-aec0-dee4-8910c945fdc4@a1technology.com>
-~,2021-08-19,"August 19, 2021, 8:48 PM GMT+5:30",<d34df8ec-ce06-1111-91a4-e0eb1a390250@a1technology.com>
-~,2021-08-20,"August 20, 2021, 9:13 PM GMT+5:30",<29bb0f8f-2801-aa60-d324-4ae6d375e677@a1technology.com>
+~,2022-12-28,"December 28, 2022 at 9:03 PM GMT+5:30",<f723c553-8398-4803-ffec-1c2857c3969e@a1technology.com>
+~,2022-12-29,"December 29, 2022 at 11:51 AM GMT+5:30",<3d7804eb-6c10-37d3-e3f4-8403fef1fe7d@a1technology.com>
+~,2022-12-30,"December 30, 2022 at 5:23 PM GMT+5:30",<d5cac9c4-3e6b-3fd1-fbc3-fc667e79eadc@a1technology.com>
+x,2022-11-30,"November 30, 2022 at 7:30 PM GMT+5:30",Message failed: 432 4.3.2 Concurrent connections limit exceeded. Visit https://aka.ms/concurrent_sending for more information. [Hostname=MA1PR01MB4162.INDPRD01.PROD.OUTLOOK.COM]
+~,2022-11-29,"November 29, 2022 at 7:30 PM GMT+5:30",<52c4ae5b-6241-c6e0-30af-3aab78718c04@a1technology.com>
+x,2023-01-03,"January 3, 2023 at 7:30 PM GMT+5:30",Message failed: 432 4.3.2 Concurrent connections limit exceeded. Visit https://aka.ms/concurrent_sending for more information. [Hostname=MA1PR01MB4162.INDPRD01.PROD.OUTLOOK.COM]
+x,2023-01-05,"January 5, 2023 at 7:30 PM GMT+5:30",Message failed: 432 4.3.2 Concurrent connections limit exceeded. Visit https://aka.ms/concurrent_sending for more information. [Hostname=MA1PR01MB4162.INDPRD01.PROD.OUTLOOK.COM]
+~,2023-01-05,"January 5, 2023 at 7:30 PM GMT+5:30",<ce0185c0-779a-d348-cf60-0b3c479d5cf5@a1technology.com>
+~,2023-01-16,"January 16, 2023 at 7:30 PM GMT+5:30",<5201f595-7247-8e9a-9a7b-2233399760e8@a1technology.com>
+~,2023-01-17,"January 17, 2023 at 7:30 PM GMT+5:30",<64742614-269c-b583-3725-b3ea3527bd4d@a1technology.com>
+~,2023-01-23,"January 23, 2023 at 7:30 PM GMT+5:30",<008b7a92-bab0-7213-6d15-b7bd42c766aa@a1technology.com>
+~,2023-01-20,"January 20, 2023 at 7:30 PM GMT+5:30",<d61a6a4e-80df-4246-fd9a-5af32cde9522@a1technology.com>
+~,2023-01-25,"January 25, 2023 at 7:30 PM GMT+5:30",<be4a775f-f267-c1f1-bf4a-9fe6c257f2b8@a1technology.com>
+~,2023-01-19,"January 19, 2023 at 7:30 PM GMT+5:30",<18919d93-285c-a146-95b7-c6f48279f351@a1technology.com>
+~,2023-01-31,"January 31, 2023 at 6:24 PM GMT+5:30",<ce6cc638-6288-ffb4-ece9-648bbfe20fff@a1technology.com>
+~,2023-02-01,"February 1, 2023 at 4:25 PM GMT+5:30",<de8663f2-9b03-2703-1b54-3e39fa1cf381@a1technology.com>
+~,2023-02-02,"February 2, 2023 at 10:02 AM GMT+5:30",<8890df6f-6fd7-2503-a438-18a2911d5052@a1technology.com>
+~,2023-02-03,"February 3, 2023 at 5:51 PM GMT+5:30",<ad8314ea-757b-931d-7165-d864dd5d35d6@a1technology.com>
+~,2023-02-06,"February 6, 2023 at 7:43 AM GMT+5:30",<82291738-1384-4a10-a16e-815ab961e87e@a1technology.com>
+~,2023-02-07,"February 7, 2023 at 5:03 PM GMT+5:30",<23a8b5db-f8fd-6773-d1ce-cdc54629dff9@a1technology.com>
+~,2023-02-10,"February 10, 2023 at 4:50 PM GMT+5:30",<f492e043-f796-1da6-6ce1-dae9bade3b94@a1technology.com>
+~,2023-02-10,"February 10, 2023 at 7:30 PM GMT+5:30",<657ed744-c772-0a0b-9205-57c3aa1f2a3f@a1technology.com>
+~,2023-02-16,"February 16, 2023 at 7:30 PM GMT+5:30",<3a622df5-1fbf-2637-0f65-3847c8907182@a1technology.com>
+~,2023-02-17,"February 17, 2023 at 7:30 PM GMT+5:30",<8ca9054d-663c-ef98-110a-877ae0bdeb83@a1technology.com>
+~,2023-02-21,"February 21, 2023 at 7:30 PM GMT+5:30",<9eaa5dc8-0a62-392e-b2dc-fdb421613521@a1technology.com>
+~,2023-02-22,"February 22, 2023 at 3:38 PM GMT+5:30",<181a60ad-b6db-7257-33d0-27dd67b8daba@a1technology.com>
+~,2023-02-24,"February 24, 2023 at 7:30 PM GMT+5:30",<999ffcb0-8a4c-88e5-d017-c2a23bac2e2f@a1technology.com>
+~,2023-02-27,"February 27, 2023 at 6:10 PM GMT+5:30",<f0a2d510-6665-c9dc-5622-4e1b160cc990@a1technology.com>
+~,2023-02-28,"February 28, 2023 at 10:52 PM GMT+5:30",<22659156-b580-5e07-de89-e6ad7f41eeab@a1technology.com>
+~,2023-03-02,"March 2, 2023 at 6:46 PM GMT+5:30",<9e7ed538-ff20-06dd-752c-56257f64d9cc@a1technology.com>

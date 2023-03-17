@@ -27,7 +27,7 @@ if (!isStatusSent(now)) {
   customLogger.log("sending status....");
   if (!isLeave(now)) {
     if (!isWeekEnd(now)) {
-      mailer(status)
+      mailer(status, now)
         .then((result) => {
           customLogger.success("Msg sent: %s", result.messageId);
           sendNotification(`✅ Status Report ${now.toLocaleString()} Sent`);

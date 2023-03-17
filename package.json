@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "startm": "node monthlystatus.js",
     "start:test": "node test.js"
   },
   "keywords": [],
@@ -17,8 +18,9 @@
     "iconv-lite": "^0.6.3",
     "js-yaml": "^4.1.0",
     "luxon": "^1.27.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "nodemailer": "^6.6.1",
+    "request": "^2.88.2",
     "signale": "^1.4.0"
   }
 }

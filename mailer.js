@@ -4,6 +4,11 @@ const nodemailer = require("nodemailer");
 
 async function mailer(status, now) {
   let transporter = nodemailer.createTransport({
+    pool: true,
+    maxMessages: 2,
+    maxConnections: 3,
+    rateDelta: 2000,
+    rateLimit: 15,
     host: process.env.M_HOST,
     port: process.env.M_PORT,
     secure: process.env.M_SECURE,

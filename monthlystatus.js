@@ -13,6 +13,9 @@ const { isWeekEnd } = require("./isWeekEnd");
 const { leaveData, isLeave } = require("./loadLeaves");
 const { ldata, isStatusSent } = require("./readLogs.js");
 
+const { statusWithActivities } = require("./statusWithActivities");
+const { updateDates } = require("./lib/date-db");
+
 const logStream = fs.createWriteStream("./logs.csv", { flags: "a" });
 
 const options = {
@@ -31,7 +34,8 @@ const monthlyStatusMailer = async (now) => {
     if (!isLeave(now)) {
       if (!isWeekEnd(now)) {
         try {
-          const result = await mailer(status, now);
+          const result = await mailer(statusWithActivities(), now);
+          await updateDates(now.toISODate());
           customLogger.success(
             `Msg sent ${now.toISODate()}: %s`,
             result.messageId
@@ -90,8 +94,8 @@ const monthlyStatusMailer = async (now) => {
 };
 
 //Start sending monthly status reports
-const start = new Date("2023-02-23T14:00:00.000Z");
-const end = new Date("2023-02-24T16:00:00.000Z");
+const start = new Date("2023-03-02T14:00:00.000Z");
+const end = new Date("2023-03-20T16:00:00.000Z");
 // const end = DateTime.now();
 
 const interval = Interval.fromDateTimes(
@@ -101,8 +105,10 @@ const interval = Interval.fromDateTimes(
 
 console.log(interval.toString());
 
-const desiredArray = interval.splitBy({ day: 1 }).forEach(async (d) => {
-  await new Promise((resolve) => setTimeout(resolve, 6000));
+const desiredArray = interval.splitBy({ day: 1 }).forEach((d) => {
+  // new Promise((resolve) => setTimeout(resolve, 6000));
   console.log("waiting for some delay");
-  await monthlyStatusMailer(d.start);
+  monthlyStatusMailer(d.start).catch((err) => {
+    console.log(`ERROR: ${err}`);
+  });
 });

@@ -10,7 +10,7 @@ Total Working hours: 9 hours
 
 Reporting To : Meenu Saluja
 
-Activities Performed: Coding
+Activities Performed:
 
 Project Name : client project
 

@@ -7,11 +7,11 @@ const fs = require("fs");
 
 const mailer = require("./mailer.js");
 
-const status = require("./fileRead.js");
 const { sendNotification } = require("./sendNotification");
 const { isWeekEnd } = require("./isWeekEnd");
 const { leaveData, isLeave } = require("./loadLeaves");
 const { ldata, isStatusSent } = require("./readLogs.js");
+const { statusWithActivities } = require("./statusWithActivities");
 
 const logStream = fs.createWriteStream("./logs.csv", { flags: "a" });
 
@@ -27,7 +27,7 @@ if (!isStatusSent(now)) {
   customLogger.log("sending status....");
   if (!isLeave(now)) {
     if (!isWeekEnd(now)) {
-      mailer(status, now)
+      mailer(statusWithActivities(), now)
         .then((result) => {
           customLogger.success("Msg sent: %s", result.messageId);
           sendNotification(`✅ Status Report ${now.toLocaleString()} Sent`);

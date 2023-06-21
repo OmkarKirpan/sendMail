@@ -94,8 +94,8 @@ const monthlyStatusMailer = async (now) => {
 };
 
 //Start sending monthly status reports
-const start = new Date("2023-03-20T14:00:00.000Z");
-const end = new Date("2023-03-31T16:00:00.000Z");
+const start = new Date("2023-06-16T14:00:00.000Z");
+const end = new Date("2023-06-20T16:00:00.000Z");
 // const end = DateTime.now();
 
 const interval = Interval.fromDateTimes(
@@ -105,10 +105,19 @@ const interval = Interval.fromDateTimes(
 
 console.log(interval.toString());
 
-const desiredArray = interval.splitBy({ day: 1 }).forEach((d) => {
-  // new Promise((resolve) => setTimeout(resolve, 6000));
-  console.log("waiting for some delay");
-  monthlyStatusMailer(d.start).catch((err) => {
-    console.log(`ERROR: ${err}`);
-  });
-});
+async function processArray() {
+  const desiredArray = interval.splitBy({ day: 1 });
+
+  for (const d of desiredArray) {
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+
+    console.log("Waiting for some delay");
+    try {
+      await monthlyStatusMailer(d.start);
+    } catch (err) {
+      console.log(`ERROR: ${err}`);
+    }
+  }
+}
+
+processArray();

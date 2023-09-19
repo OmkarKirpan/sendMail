@@ -1,10 +1,20 @@
 Status,ISOdate,Date Time,Details
 ~,2023-04-03,"April 3, 2023 at 9:43 AM GMT+5:30",<2c0f62c2-2833-991c-f02c-93237a86be39@a1technology.com>
 ~,2023-04-03,"April 3, 2023 at 10:00 AM GMT+5:30",<f66a207b-a802-8913-437d-bc94bab4e31f@a1technology.com>
-~,2023-04-04,"April 4, 2023 at 9:35 AM GMT+5:30",<5f0713a4-aad4-3abe-c54f-916d8c6b377f@a1technology.com>
-x,2023-04-05,"April 5, 2023 at 10:00 AM GMT+5:30","Invalid login: 535 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN3PR01CA0140.INDPRD01.PROD.OUTLOOK.COM 2023-04-05T04:30:17.957Z 08DB355F0D4B28A7]"
-x,2023-04-05,"April 5, 2023 at 10:01 AM GMT+5:30","Invalid login: 535 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN2PR01CA0166.INDPRD01.PROD.OUTLOOK.COM 2023-04-05T04:31:58.884Z 08DB34AC4F8F3817]"
-x,2023-04-05,"April 5, 2023 at 11:01 AM GMT+5:30","Invalid login: 535 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN3PR01CA0026.INDPRD01.PROD.OUTLOOK.COM 2023-04-05T05:32:07.953Z 08DB3535AEFB6FB9]"
-x,2023-04-05,"April 5, 2023 at 12:01 PM GMT+5:30","Invalid login: 535 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN2PR01CA0221.INDPRD01.PROD.OUTLOOK.COM 2023-04-05T06:32:02.155Z 08DB35693CD23A2C]"
-~,2023-04-05,"April 5, 2023 at 1:01 PM GMT+5:30",<6159adce-c02a-2f4f-0a5f-d7d230573615@a1technology.com>
-~,2023-04-11,"April 11, 2023 at 10:26 PM GMT+5:30",<916c3466-2e4e-9918-171c-376cb219338b@a1technology.com>
+~,2023-06-21,21 June 2023 at 7:30 pm IST,<aa60a270-5a0d-c90f-399d-71e6ce2bf992@a1technology.com>
+~,2023-06-26,26 June 2023 at 5:22 pm IST,<de1a25b2-bdbb-abf5-a0c2-3043c2c490f8@a1technology.com>
+~,2023-06-27,27 June 2023 at 7:30 pm IST,<3b9f2a76-64c2-291b-8473-c7ceea01c4b7@a1technology.com>
+~,2023-07-05,5 July 2023 at 7:30 pm IST,<d5c16125-c7db-c8dd-4323-641d2d194600@a1technology.com>
+~,2023-07-10,10 July 2023 at 7:30 pm IST,<db7cb1d3-e1cd-03f1-88d8-a1b75a2821fe@a1technology.com>
+
+~,2023-07-20,"20 July 2023, 7:30 pm IST",<2b3acb15-c2b1-09a6-e6eb-9365e12b338a@a1technology.com>
+
+~,2023-07-24,"24 July 2023, 7:30 pm IST",<f2de6567-b5cf-2a40-ebe7-1ad9bdb6f129@a1technology.com>
+~,2023-07-31,"31 July 2023, 7:30 pm IST",<b2bacfc8-1a2e-8285-8d0b-cabcd5b91ddc@a1technology.com>
+~,2023-08-02,"2 August 2023, 7:30 pm IST",<98170285-8dfc-3747-bcdb-7ea1c4304197@mobileprogramming.com>
+~,2023-08-14,"14 August 2023, 7:30 pm IST",<40315c09-1c59-884e-f335-4bfdc915c20d@mobileprogramming.com>
+~,2023-08-21,21 August 2023 at 7:30 pm IST,<f5c5571b-7d96-e2b2-6143-7cb168ebb1e1@mobileprogramming.com>
+~,2023-08-29,29 August 2023 at 7:30 pm IST,<25a43d3a-15d7-ac68-4633-d1d89de43add@mobileprogramming.com>
+~,2023-08-30,30 August 2023 at 7:30 pm IST,<fdf6f952-c637-f082-cd91-140f03dafda8@mobileprogramming.com>
+
+~,2023-09-13,13 September 2023 at 7:30 pm IST,<6933db7c-92bb-1259-2334-6267170fc7f3@mobileprogramming.com>

@@ -94,8 +94,8 @@ const monthlyStatusMailer = async (now) => {
 };
 
 //Start sending monthly status reports
-const start = new Date("2023-06-16T14:00:00.000Z");
-const end = new Date("2023-06-20T16:00:00.000Z");
+const start = new Date("2023-09-13T14:00:00.000Z");
+const end = new Date("2023-09-19T16:00:00.000Z");
 // const end = DateTime.now();
 
 const interval = Interval.fromDateTimes(

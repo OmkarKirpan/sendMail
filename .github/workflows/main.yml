@@ -42,4 +42,4 @@ jobs:
         with:
           bun-version: latest
       - run: bun install
-      - run: bun run startBun
+      - run: bun run start

@@ -32,9 +32,14 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name: Use Node.js
-        uses: actions/setup-node@v3
+      # - name: Use Node.js
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     node-version: 'latest'
+      # - run: npm ci
+      # - run: npm run start
+      - uses: oven-sh/setup-bun@v1
         with:
-          node-version: 'latest'
-      - run: npm ci
-      - run: npm run start
+          bun-version: latest
+      - run: bun install
+      - run: bun run start

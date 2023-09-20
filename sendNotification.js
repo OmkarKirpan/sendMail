@@ -1,6 +1,6 @@
 // const fetch = require("node-fetch");
 // var request = require("request");
-const notifier = require('node-notifier');
+// const notifier = require('node-notifier');
 
 const sendNotification = (payload) => {
   console.log(
@@ -45,12 +45,12 @@ const sendNotification = (payload) => {
   //   .then((result) => console.log(result))
   //   .catch((error) => console.log("error", error));
 
-  notifier.notify({
-    sound: true, 
-    appID: 'Status Mail',
-    title: 'Status Mail Notification',
-    message: payload
-  });
+  // notifier.notify({
+  //   sound: true, 
+  //   appID: 'Status Mail',
+  //   title: 'Status Mail Notification',
+  //   message: payload
+  // });
 };
 
 exports.sendNotification = sendNotification;

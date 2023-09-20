@@ -22,7 +22,6 @@
     "nedb": "^1.8.0",
     "nedb-async": "^0.1.6",
     "node-fetch": "^2.6.7",
-    "node-notifier": "^10.0.1",
     "nodemailer": "^6.6.1",
     "request": "^2.88.2",
     "signale": "^1.4.0"

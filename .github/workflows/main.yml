@@ -1,7 +1,6 @@
 name: Send Daily Status
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 env:
-  NOTIFY_URL="https://maker.ifttt.com/trigger/statusReport/json/with/key/ju2lNgJEV-5Kq-nlcOjFThVXswTAisUEhM0HeYd-fpU"
   M_HOST="smtp.gmail.com"
   M_PORT="587"
   M_SECURE="false"

@@ -9,17 +9,17 @@ async function mailer(status, now) {
     maxConnections: 3,
     rateDelta: 2000,
     rateLimit: 15,
-    host: process.env.M_HOST,
-    port: process.env.M_PORT,
-    secure: process.env.M_SECURE,
+    // host: process.env.M_HOST,
+    // port: process.env.M_PORT,
+    // secure: process.env.M_SECURE,
     requireTLS: true,
     auth: {
       user: process.env.M_AUTH_USER,
       pass: process.env.M_AUTH_PASS,
     },
-    tls: {
-      ciphers: "SSLv3",
-    },
+    // tls: {
+    //   ciphers: "SSLv3",
+    // },
     service: process.env.M_SERVICE,
   });
 
